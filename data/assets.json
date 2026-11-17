@@ -1,0 +1,30 @@
+{
+  "_note": "Company-owned images, referenced from the existing site. NOT committed to the repo (see .gitignore). Run `node scripts/fetch-assets.mjs` locally to download them. Do not publish until Atharva Infrastructures has granted permission.",
+  "origin": "https://atharvainfrastructuresnagpur.com/wp-content/uploads/",
+  "assets": [
+    { "file": "logo.png", "src": "2025/09/Logoo-01-scaled-e1758139584716.png", "kind": "logo", "w": 1600, "h": 1246 },
+    { "file": "viii-cam02-day.jpg", "src": "2025/10/Atharva_Cam02-Day_12x24-min-scaled-e1759470962801.jpg", "kind": "render", "w": 1600, "h": 795, "credit": "Architectural visualisation (watermark: Digital Multimedia Technologies)" },
+    { "file": "viii-cam01-night.jpg", "src": "2025/09/Atharva_Cam01-Night_12x24-min-1-scaled.jpg", "kind": "render", "w": 1600, "h": 800 },
+    { "file": "viii-cam03-day.jpg", "src": "2025/09/Atharva_Cam03-Day-_12x24-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-cam04-night.jpg", "src": "2025/09/Atharva_Cam04-Night-_12x24-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-cam10-night.jpg", "src": "2025/09/Atharva_Cam10-Night_12x24_New-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-cam11-night.jpg", "src": "2025/09/Atharva_Cam11-Night-copy-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-cam12-day.jpg", "src": "2025/09/Atharva_Cam12-Day_12x24-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-cam13-night.jpg", "src": "2025/09/Atharva_Cam13-Night_12x24-min-1-scaled.jpg", "kind": "render" },
+    { "file": "viii-plan-2bhk.jpg", "src": "2025/09/2bhk.jpeg", "kind": "floor-plan", "w": 1563, "h": 1563 },
+    { "file": "viii-plan-3bhk-t1.jpg", "src": "2025/09/3bhk1.jpeg", "kind": "floor-plan", "w": 1563, "h": 1563 },
+    { "file": "viii-plan-3bhk-t2.jpg", "src": "2025/09/3bhk2.jpeg", "kind": "floor-plan" },
+    { "file": "vii-view1.jpg", "src": "2025/09/Copy-of-Athrava-Nagari-7-View-1-07.04.22-min.jpg", "kind": "render", "w": 1600, "h": 1066 },
+    { "file": "vi-aerial-1.jpg", "src": "2025/09/DJI_20250904144250_0363_D_TFM-min-scaled.jpg", "kind": "photograph", "w": 1600, "h": 900 },
+    { "file": "vi-aerial-2.jpg", "src": "2025/09/DJI_20250904143806_0351_D_TFM-min-scaled.jpg", "kind": "photograph" },
+    { "file": "v-render.png", "src": "2025/09/12c3cd76-ae64-4079-86e7-e45588216e55.png", "kind": "render", "w": 1300, "h": 866 },
+    { "file": "iii-view.webp", "src": "2025/10/atharva_nagari_iii-manewada-nagpur-atharva_infrastructure.webp", "kind": "render-unconfirmed", "w": 1549, "h": 900 }
+  ],
+  "excluded": [
+    { "src": "2025/11/ChatGPT-Image-Oct-3-2025-10_07_09-PM-min.jpg", "reason": "Filename indicates AI-generated image (used for Nagari I on current site)" },
+    { "src": "2025/11/ChatGPT-Image-Sep-25-2025-11_41_31-PM-min.jpg", "reason": "Filename indicates AI-generated image (used for Nagari IV)" },
+    { "src": "2025/09/a-photograph-of-a-modern-*.jpeg", "reason": "Filename pattern of an AI image generator; not the actual project (used on Nagari VIII page)" },
+    { "src": "2025/09/Gemini_Generated_Image_*.png", "reason": "AI-generated (About page)" },
+    { "src": "2025/10/fs.avif", "reason": "Provenance and project unclear (shown for Nagari II)" }
+  ]
+}
