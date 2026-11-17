@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-// Downloads Atharva Infrastructures' own images from their current website into
-// assets/img/atharva/ for the LOCAL prototype only. These files are git-ignored.
-// Do not publish them until the company has granted permission.
+// Downloads Atharva Infrastructures' images (republishing permission confirmed) into assets/img/atharva/.
 // Usage: node scripts/fetch-assets.mjs
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -27,5 +25,5 @@ for (const a of manifest.assets) {
     failed++;
   }
 }
-console.log(`\n${ok} downloaded, ${failed} failed. Images are for the private local prototype only.`);
+console.log(`\n${ok} downloaded, ${failed} failed. Commit assets/img/atharva/ to publish them.`);
 process.exitCode = failed ? 1 : 0;

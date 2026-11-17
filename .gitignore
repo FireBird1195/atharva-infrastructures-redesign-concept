@@ -1,5 +1,2 @@
-# Company-owned images: local prototype only. Do not commit until permission is confirmed.
-assets/img/atharva/*
-!assets/img/atharva/.gitkeep
 node_modules/
 .DS_Store

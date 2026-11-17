@@ -1,5 +1,5 @@
 name: Deploy concept to GitHub Pages
-# Manual only: run after the owner confirms asset permission with Atharva Infrastructures.
+# Manual deploy. Asset permission confirmed by the project owner (Nov 2026).
 on:
   workflow_dispatch:
 permissions:

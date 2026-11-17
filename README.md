@@ -10,7 +10,7 @@ Two pages:
 ## Run locally
 
 ```bash
-node scripts/fetch-assets.mjs     # downloads the company's own images into assets/img/atharva/ (git-ignored)
+node scripts/fetch-assets.mjs     # downloads the company's images into assets/img/atharva/
 python3 -m http.server 8080       # or: npx serve .
 # open http://localhost:8080/
 ```
@@ -27,8 +27,9 @@ Project content lives in `data/projects.json` with a `basis` on every fact (publ
 
 Validates name, Indian mobile number, optional email and project; shows a confirmation. **It sends and stores nothing.** A real build would post to the client's CRM with consent capture and spam protection.
 
-## Publishing — read first
+## Publishing
 
-- Company logo and images are **excluded from git** (`.gitignore`) until Atharva Infrastructures grants permission to republish them.
-- Every page carries `noindex, nofollow`; `robots.txt` disallows all crawling.
-- The Pages workflow (`.github/workflows/pages.yml`) is manual-only. Do not run it with company images until permission is confirmed in writing.
+- Atharva Infrastructures has given written permission to republish its logo and images in this concept. Keep that permission on file.
+- Download the images (`node scripts/fetch-assets.mjs`, or on Windows `powershell -ExecutionPolicy Bypass -File scripts/fetch-assets.ps1`) and commit `assets/img/atharva/`.
+- Every page carries `noindex, nofollow`; `robots.txt` disallows crawling. The site stays labelled as an independent concept.
+- Deploy with the manual workflow `.github/workflows/pages.yml` (Settings → Pages → Source: GitHub Actions, then Actions → Run workflow).
